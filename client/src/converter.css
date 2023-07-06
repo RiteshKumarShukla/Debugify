@@ -9,6 +9,9 @@
   background-color: lightskyblue;
   color: black;
 }
+.input-section>p{
+  font-weight: bold;
+}
 .footer {
   margin-top: -150px;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './converter.css';
-// replace backend-url with latest backend url
+const backendUrl = process.env.REACT_APP_URL;
+
 const Converter = () => {
     const [inputCode, setInputCode] = useState('');
     const [language, setLanguage] = useState('Java');
@@ -18,7 +19,7 @@ const Converter = () => {
     const handleConvert = async () => {
         try {
             setLoading(true);
-            const response = await fetch(`backend-url/convert?language=${language}`, {
+            const response = await fetch(`${backendUrl}/convert?language=${language}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -41,7 +42,7 @@ const Converter = () => {
     const handleDebug = async () => {
         try {
             setLoading(true);
-            const response = await fetch(`backend-url/debug`, {
+            const response = await fetch(`${backendUrl}/debug`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -64,7 +65,7 @@ const Converter = () => {
     const handleQuality = async () => {
         try {
             setLoading(true);
-            const response = await fetch(`backend-url/qualityCheck`, {
+            const response = await fetch(`${backendUrl}/qualityCheck`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
