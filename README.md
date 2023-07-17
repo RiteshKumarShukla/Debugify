@@ -4,6 +4,11 @@ Welcome to Debugify! Debugify is a powerful code converter app built using Node.
 
 🚀 [Launch Debugify](https://64a62c19aa400e250cf217b0--playful-llama-45ea46.netlify.app/)
 
+
+## Take A Look 
+![image](https://github.com/RiteshKumarShukla/Debugify/assets/110231091/d7a041c8-4433-4d0f-a1ab-d163c8dfcd3f)
+
+
 ## Features
 
 - **Code Quality Checking**: Get detailed analysis and feedback on the quality of your code. The app uses advanced algorithms to identify potential issues and provide suggestions for improvement.
