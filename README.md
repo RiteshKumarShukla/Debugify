@@ -2,7 +2,7 @@
 
 Welcome to Debugify! Debugify is a powerful code converter app built using Node.js, Express, and React. It allows you to check the quality of your code, convert code from one programming language to another, and debug your code effectively.
 
-🚀 [Launch Debugify](https://64a62c19aa400e250cf217b0--playful-llama-45ea46.netlify.app/)
+🚀 [Launch Debugify](https://debugify.netlify.app/)
 
 
 ## Take A Look 
